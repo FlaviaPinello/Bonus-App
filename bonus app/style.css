@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+ body {
+    font-family: 'Playfair Display', serif;
+    background: rgb(255, 255, 255);
+  }
+
+  .hero {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    border-radius: 4px;
+
+  }
+  .heroImg {
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 5px 5px #000;
+    border-radius: 4px;
+  }
+
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(140, 182, 230);
+    border-radius: 6px;
+    box-shadow: 0px 5px 5px rgb(175, 175, 200);
+  }
+  
+  header .hamburger {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  header .tendina {
+    background-color: white;
+    box-shadow: 0px 10px 10px #000;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    right: 10px;
+    top: 65px;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.35s;
+    padding: 20px;
+  }
+  
+  header .hamburger .line {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 5px;
+  }
+
+  .title{
+    height:60px;
+    width: 100%; 
+    font-family: Helvetica;
+    font-size: 48px;
+    padding: 5px;
+
+  }
+
+  .titleAgeYoung,
+  .titleAgeMidi,
+  .titleAgeOld {
+    
+    padding: 30px;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+  }
+
+ 
+  .users {
+    width: 250px;
+    cursor: pointer;
+    filter: grayscale(0.75);
+    transition: all 0.35s;
+    padding:5px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px rgb(50, 50, 51);
+    
+  }
+
+
+  .young {
+    background-color: rgb(166, 210, 246);
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(175, 175, 200);
+
+  }
+
+  .midi {
+    background-color: rgb(98, 145, 176);
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(175, 175, 200);
+
+  }
+
+  .old {
+    background-color: rgb(113, 136, 187);
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(175, 175, 200);
+
+  }
+
+   .young,
+   .midi,
+   .old {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+  }
+   .users img{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .footerImg {
+    width: 100%;
+    border-radius: 4px;
+    height: 350px;
+    box-shadow: 5px 5px 5px rgb(175, 175, 200);
+
+  }
